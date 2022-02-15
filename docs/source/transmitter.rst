@@ -7,11 +7,30 @@ The Displayport TX diagram is shown in figure 1.
    :alt: DPTX Diagram
 Figure 1: DisplayPort TX diagram
 
+
+Parameters
+----------
++----------+---------+--------------------+-----------------+
+| Name     | Type    | Description        | Values          | 
++=======+============+====================+=================+
+| P_VENDOR | String  | Vendor             | Xilinx, Lattice |
++----------+---------+--------------------+-----------------+
+| P_BEAT   + Integer | Beat value         | 125             |
++----------+---------+--------------------+-----------------+
+| P_LANES  | Integer | Number of lanes    | 2, 4            |
++----------+---------+--------------------+-----------------+
+| P_SPL    | Integer | Symbols per lane   | 2               |
++----------+---------+--------------------+-----------------+
+| P_PCC    | Integer | Pixels per clock   | 2               |
++----------+---------+--------------------+-----------------+
+| P_BPC    | Integer | Bits per component | 8               |
++----------+---------+--------------------+-----------------+
+
 Interface
-^^^^^^^^^
+---------
+
+
 .. list-table:: Interface ports
-   :widths: 25 25 25
-   :header-rows: 1
 	
    * - Signal name
      - Clock domain 
