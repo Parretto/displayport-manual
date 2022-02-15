@@ -30,28 +30,40 @@ Parameters
 List Tables
 -----------
 
-.. list-table:: List tables can have captions like this one.
+.. list-table:: Parameters
     :widths: 10 5 10 50
     :header-rows: 1
     :stub-columns: 1
 
-    * - List table
-      - Header 1
-      - Header 2
-      - Header 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet mauris arcu.
-    * - Stub Row 1
-      - Row 1
-      - Column 2
-      - Column 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet mauris arcu.
-    * - Stub Row 2
-      - Row 2
-      - Column 2
-      - Column 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet mauris arcu.
-    * - Stub Row 3
-      - Row 3
-      - Column 2
-      - Column 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet mauris arcu.
-      
+    * - Name
+      - Type
+      - Description
+      - Values
+    * - P_VENDOR
+      - String
+      - Vendor
+      - Xilinx, Lattice
+    * - P_BEAT
+      - Integer
+      - Beat value
+      - 125
+    * - P_LANES
+      - Integer
+      - Number of lanes
+      - 2, 4
+    * - P_SPL
+      - Integer
+      - Symbols per lane
+      - 2
+    * - P_PPC
+      - Integer
+      - Pixels per clock
+      - 2
+    * - P_BPC
+      - Integer
+      - Bits per component
+      - 8
+
 Interface
 ---------
 
