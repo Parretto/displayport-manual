@@ -3,9 +3,10 @@ Transmitter
 
 The Displayport TX diagram is shown in figure 1.
 
-.. image:: ./images/dptx_diagram.svg
+.. figure:: ./images/dptx_diagram.svg
    :alt: DPTX Diagram
-Figure 1: DisplayPort TX diagram
+   
+   Figure 1: DisplayPort TX diagram
 
 
 .. list-table:: Parameters
