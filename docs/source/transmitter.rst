@@ -41,17 +41,15 @@ Figure 1: DisplayPort TX diagram
       - Bits per component
       - 8
 
-
 .. list-table:: Signals
-    :widths: 10 10 10 
+    :widths: 10 10 10
     :header-rows: 1
-	
+
     * - Name
-      - Clock domain 
-	  - Description
+      - Clock 
+      - Description
     * - SYS_RST_IN
-	  - SYS_CLK_IN
-	  - System reset
-    * - SYS_CLK_IN
-	  - SYS_CLK_IN
-	  - System clock (125 MHz)
+      - SYS_CLK
+      - System reset
+
+
