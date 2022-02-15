@@ -41,11 +41,12 @@ Figure 1: DisplayPort TX diagram
       - Bits per component
       - 8
 
+
 .. list-table:: Signals
-    :widths: 10 10 10 10
+    :widths: 10 10 10 
     :header-rows: 1
 	
-    * - Signal name
+    * - Name
       - Clock domain 
 	  - Description
     * - SYS_RST_IN
