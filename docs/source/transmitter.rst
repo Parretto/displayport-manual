@@ -2,6 +2,6 @@ Transmitter
 ===========
 
 
-..image:: ./images/dptx_diagram.svg
+.. image:: ./images/dptx_diagram.svg
 	:width: 400
 	:alt: DPTX Diagram
