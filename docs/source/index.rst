@@ -1,3 +1,7 @@
+.. image:: ./images/parretto_logo.png
+   :width: 400
+   :alt: Parretto
+
 Welcome to DisplayPort documentation!
 =====================================
 
@@ -15,7 +19,6 @@ Contents
    overview
    transmitter
    api
-   reference design
+   reference_design
 
-.. image:: ./images/parretto_logo.png
-   :alt: Parretto
+
