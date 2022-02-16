@@ -15,3 +15,7 @@ Contents
    overview
    transmitter
    api
+   application
+
+.. image:: ./images/parretto_logo.png
+   :alt:Parretto
