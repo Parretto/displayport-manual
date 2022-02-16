@@ -3,7 +3,9 @@
    :alt: Parretto
    :align: center
 
-
+|
+|
+|
 
 Welcome to DisplayPort documentation!
 =====================================
@@ -15,9 +17,9 @@ Welcome to DisplayPort documentation!
 
    This project is under active development.
 
+
 Contents
 --------
-
 .. toctree::
    overview
    transmitter
