@@ -14,7 +14,7 @@ The RISC-V processor runs the application code and DisplayPort host driver.
 
 The I2C peripheral is used to configure the external reference clock synthesizer. 
 
-The SERDES is configured through the DRP / LMMI peripheral. 
+The SERDES registers are accessed through the DRP / LMMI peripheral. 
 
 The full application or parts can be replaced by customer modules. 
 
