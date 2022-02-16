@@ -1,6 +1,9 @@
 .. image:: ./images/parretto_logo.png
-   :width: 400
+   :width: 50%
    :alt: Parretto
+   :align: center
+
+
 
 Welcome to DisplayPort documentation!
 =====================================
