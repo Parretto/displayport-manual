@@ -38,23 +38,19 @@ Before building the reference design the kronos repository needs to be downloade
 Go to the folder gateware/ref and run the script 'get_kronos_repo.sh' 
 
 
- .. note:
-	This processor is not part of the DP IP-core itself.
-	It can be replaced by any hard or soft-core processor (eg. ARM, RISC-V, Microblaze, etc)
 
+.. note::
 
-.. note: hallo
-
-
-.. note:
-  hallo2
+   This project is under active development.
 
 
 
+.. note::
+   This processor is not part of the DP IP-core itself.
+   It can be replaced by any hard or soft-core processor (eg. ARM, RISC-V, Microblaze, etc)
 
-.. note:
-	hallo3
 
+.. note:: hallo
 
 
 
