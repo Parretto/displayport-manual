@@ -42,6 +42,7 @@ Go to the folder gateware/ref and run the script 'get_kronos_repo.sh'
 
 .. note::
    This processor is not part of the DPTX IP-core or DPRX IP-core.
+   It is only used to run the reference design application software.
    It can be replaced by any processor (eg. ARM, RISC-V, Microblaze, etc)
 
 
