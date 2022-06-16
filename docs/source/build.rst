@@ -3,12 +3,13 @@ Build
 
 The DP IP-cores and reference design can be downloaded from the Github repository
 
-folder tree::
-	index
-	├── install
-	├── support
-
-
+folder tree
+|
+|	index
+|	├── install
+|	├── support
+|
+|
 
 files::
 |	gateware
