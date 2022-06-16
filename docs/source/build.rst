@@ -9,6 +9,7 @@ The repository file structure is listed in figure 1.
    :alt: Repository tree
 Figure 1: Repository tree
 
+.. comment
 .
 └── gateware
     ├── src 				- Source folder
@@ -29,10 +30,10 @@ Figure 1: Repository tree
 
 
 Kronos RISC-V
-"""""""""""""
+^^^^^^^^^^^^^
 In the reference design the Kronos RISC-V is used as a generic application processor. 
 More information about he Kronos can be found here; https://sonalpinto.github.io/kronos/#/
-**This processor is not part of the DP IP-core itself.**
+|**This processor is not part of the DP IP-core itself.**
 It can be replaced by any hard or soft-core processor (eg. ARM, RISC-V, Microblaze, etc)
 
 Lattice CertusPro-NX reference design
@@ -49,8 +50,8 @@ Steps to build the reference design.
 
 -----
 .. figure:: ./images/lat-tcl-console.png
-   :align: center
    :alt: TCL-console
+   :align: center
 Figure 2: TCL-console
 
 -----
