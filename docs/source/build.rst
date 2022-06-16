@@ -34,8 +34,8 @@ Kronos RISC-V
 ^^^^^^^^^^^^^
 In the reference design the Kronos RISC-V is used as a generic application processor. 
 More information about the Kronos project can be found here; https://sonalpinto.github.io/kronos/#/
-Before building the reference design the kronos repository needs to be downloaded. 
-* Go to the folder gateware/ref and run the script 'get_kronos_repo.sh' 
+Before building the reference design the kronos repository needs to be downloaded:: 
+Go to the folder gateware/ref and run the script 'get_kronos_repo.sh' 
 
 
  .. note:
@@ -43,19 +43,16 @@ Before building the reference design the kronos repository needs to be downloade
 	It can be replaced by any hard or soft-core processor (eg. ARM, RISC-V, Microblaze, etc)
 
 
+.. note: hallo
+
+
 .. note:
- hallo
-
-
-
-
-..note:
   hallo2
 
 
 
 
-..note:
+.. note:
 	hallo3
 
 
