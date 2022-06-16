@@ -1,12 +1,12 @@
 Receiver (DPRX)
 ===============
 
-The DPRX diagram is shown in figure 1.
+The DPRX diagram is shown in figure 2.
 
 .. figure:: ./images/dprx_diagram.svg
    :alt: DPRX Diagram
    
-   Figure 1: DPRX diagram
+   Figure 2: DPRX diagram
 
 
 .. list-table:: Parameters
