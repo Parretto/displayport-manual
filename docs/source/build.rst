@@ -5,11 +5,9 @@ The DP IP-cores and reference design can be downloaded from the Github repositor
 
 
     index
-    ├── install
-    ├── support
+    ├── install |
+    ├── support |
 
-.. toctree::
-   :maxdepth: 2
    gateware
      ref
      kronos
