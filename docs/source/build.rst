@@ -41,13 +41,13 @@ Go to the folder gateware/ref and run the script 'get_kronos_repo.sh'
 
 
 .. note::
-   This processor is not part of the DP IP-core itself.
-   It can be replaced by any hard or soft-core processor (eg. ARM, RISC-V, Microblaze, etc)
+   This processor is not part of the DPTX IP-core or DPRX IP-core.
+   It can be replaced by any processor (eg. ARM, RISC-V, Microblaze, etc)
 
 
-Lattice CertusPro-NX reference design
+Lattice reference design
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Steps to build the reference design. 
+Steps to build the Lattice CertusPro-NX reference design. 
 
 #. Change the work directory to the folder gateware/syn/lattice
 #. Launch the Lattice Radiant software
