@@ -7,7 +7,7 @@
 |
 |
 
-Welcome to DisplayPort documentation!
+Welcome to the DisplayPort documentation!
 =====================================
 
 **Displayport** 
@@ -23,7 +23,6 @@ Contents
 .. toctree::
    overview
    transmitter
+   receiver
    api
    reference_design
-
-

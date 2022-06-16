@@ -1,7 +1,7 @@
 Overview
 ========
 
-The DisplayPort IP is a optimized DisplayPort solution for FPGA implementation. 
+The DisplayPort IP-core is a optimized DisplayPort solution for FPGA implementation. 
 It offers a small logic footprint and simple host driver. 
 
 Features
@@ -11,4 +11,4 @@ Features
 * Support for 2 and 4 lanes
 * Native video input interface
 * Single Stream transport mode (SST)
-* Dual pixels per clock
+* Dual and quad pixels per clock

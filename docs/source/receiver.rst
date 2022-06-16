@@ -1,12 +1,12 @@
-Transmitter (DPTX)
-==================
+Receiver (DPRX)
+===============
 
-The DPTX diagram is shown in figure 1.
+The DPRX diagram is shown in figure 1.
 
-.. figure:: ./images/dptx_diagram.svg
-   :alt: DPTX Diagram
+.. figure:: ./images/dprx_diagram.svg
+   :alt: DPRX Diagram
    
-   Figure 1: DPTX diagram
+   Figure 1: DPRX diagram
 
 
 .. list-table:: Parameters
@@ -78,7 +78,7 @@ The DPTX diagram is shown in figure 1.
       - SYS_CLK
       - AUX channel receive
       - 1
-    * - HPD_IN
+    * - HPD_OUT
       - SYS_CLK
       - Hot Plug Detect
       - 1
@@ -86,44 +86,32 @@ The DPTX diagram is shown in figure 1.
       - SYS_CLK
       - Heartbeat
       - 1
-    * - VID_CLK_IN
-      - VID_CLK
-      - Video clock
-      - 1
-    * - VID_CKE_IN
-      - VID_CLK
-      - Video clock enable
-      - 1
-    * - VID_VS_IN
-      - VID_CLK
-      - Video vertical sync
-      - 1
-    * - VID_HS_IN
-      - VID_CLK
-      - Video horizontal sync
-      - 1
-    * - VID_R_IN
-      - VID_CLK
-      - Video red
-      - P_PPC * P_BPC
-    * - VID_G_IN
-      - VID_CLK
-      - Video green
-      - P_PPC * P_BPC
-    * - VID_B_IN
-      - VID_CLK
-      - Video blue
-      - P_PPC * P_BPC
-    * - VID_DE_IN
-      - VID_CLK
-      - Video data enable
-      - 1
     * - LNK_CLK_IN
       - LNK_CLK
       - Link clock
       - 1
-    * - LNK_DAT_OUT
+    * - LNK_DAT_IN
       - LNK_CLK
       - Link data
-      - P_LANES * P_SPL * 11
+      - P_LANES * P_SPL * 9
+    * - VID_RDY_IN
+      - LNK_CLK
+      - Video ready
+      - 1
+    * - VID_SOF_OUT
+      - LNK_CLK
+      - Video start of frame
+      - 1
+    * - VID_EOL_OUT
+      - LNK_CLK
+      - Video end of line
+      - 1
+    * - VID_DAT_OUT
+      - LNK_CLK
+      - Video data 
+      - P_VID
+    * - VID_VLD_OUT
+      - LNK_CLK
+      - Video valid
+      - 1
 
