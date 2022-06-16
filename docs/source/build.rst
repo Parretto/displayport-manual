@@ -6,6 +6,7 @@ The DP IP-cores and reference design can be downloaded from the Github repositor
 The repository file structure is listed in figure 1.
 
 .. figure:: ./images/repo-tree.png
+   :align: center
    :alt: Repository tree
 Figure 1: Repository tree
 
@@ -30,15 +31,16 @@ Figure 1: Repository tree
 
 
 Kronos RISC-V
-^^^^^^^^^^^^^
+~~~~~~~~~~~~~
 In the reference design the Kronos RISC-V is used as a generic application processor. 
 More information about the Kronos project can be found here; https://sonalpinto.github.io/kronos/#/
 |
-**This processor is not part of the DP IP-core.**
-It can be replaced by any hard or soft-core processor (eg. ARM, RISC-V, Microblaze, etc)
-|
 Before building the reference design the kronos repository needs to be downloaded. 
 * Go to the folder gateware/ref and run the script 'get_kronos_repo.sh' 
+
+.. note:
+  This processor is not part of the DP IP-core itself.
+  It can be replaced by any hard or soft-core processor (eg. ARM, RISC-V, Microblaze, etc)
 
 
 Lattice CertusPro-NX reference design
