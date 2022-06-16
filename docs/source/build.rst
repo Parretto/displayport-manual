@@ -6,21 +6,21 @@ The DP IP-cores and reference design can be downloaded from the 'Github reposito
 
 
 .
-└── gateware
-    ├── ref
-    │   ├── kronos
-    │   └── lattice
-    │       └── lfcpnx_evn
-    ├── src
-    │   ├── app
-    │   ├── lib
-    │   ├── misc
-    │   ├── pm
-    │   ├── rx
-    │   ├── tx
-    │   └── vtb
-    └── syn
-        └── lattice
+└── gateware   
+    ├── ref   
+    │   ├── kronos   
+    │   └── lattice   
+    │       └── lfcpnx_evn  
+    ├── src  
+    │   ├── app  
+    │   ├── lib   
+    │   ├── misc   
+    │   ├── pm   
+    │   ├── rx  
+    │   ├── tx   
+    │   └── vtb   
+    └── syn   
+        └── lattice   
 
 Steps to build the reference design. 
 * 
