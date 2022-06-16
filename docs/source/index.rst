@@ -26,3 +26,4 @@ Contents
    receiver
    api
    reference_design
+   build
