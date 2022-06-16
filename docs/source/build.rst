@@ -10,31 +10,36 @@ The repository file structure is listed in figure 1.
 Figure 1: Repository tree
 
 .. comment
-.
-└── gateware
-    ├── src 				- Source folder
-    │	├── app					- Application
-    │	├── lib					- Library
-    │	├── misc				- Miscellaneous
-    │	├── pm					- Policy maker
-    │	├── rx					- DP RX
-    │	├── tx					- DP TX
-    │	└── vtb					- Video toolbox
-    ├── ref					- Reference folder
-    │	├── kronos				- Kronos RISC-V 
-    │	└── lattice				- Lattice
-    │   	└── lfcpnx_evn			- CertusPro-NX 
-    └── syn					- Synthesis folder
-        └── lattice				- Lattice
+.. comment	.
+.. comment	└── gateware
+.. comment		├── src 				- Source folder
+.. comment    	│	├── app					- Application
+.. comment    	│	├── lib					- Library
+.. comment    	│	├── misc				- Miscellaneous
+.. comment    	│	├── pm					- Policy maker
+.. comment    	│	├── rx					- DP RX
+.. comment    	│	├── tx					- DP TX
+.. comment    	│	└── vtb					- Video toolbox
+.. comment    	├── ref					- Reference folder
+.. comment    	│	├── kronos				- Kronos RISC-V 
+.. comment    	│	└── lattice				- Lattice
+.. comment    	│   	└── lfcpnx_evn			- CertusPro-NX 
+.. comment    	└── syn					- Synthesis folder
+.. comment        	└── lattice				- Lattice
 
 
 
 Kronos RISC-V
 ^^^^^^^^^^^^^
 In the reference design the Kronos RISC-V is used as a generic application processor. 
-More information about he Kronos can be found here; https://sonalpinto.github.io/kronos/#/
-|**This processor is not part of the DP IP-core itself.**
+More information about the Kronos project can be found here; https://sonalpinto.github.io/kronos/#/
+|
+**This processor is not part of the DP IP-core.**
 It can be replaced by any hard or soft-core processor (eg. ARM, RISC-V, Microblaze, etc)
+|
+Before building the reference design the kronos repository needs to be downloaded. 
+* Go to the folder gateware/ref and run the script 'get_kronos_repo.sh' 
+
 
 Lattice CertusPro-NX reference design
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -49,9 +54,10 @@ Steps to build the reference design.
 #. Press the big green 'Run All' button on top left to start the compilation
 
 -----
+
 .. figure:: ./images/lat-tcl-console.png
-   :alt: TCL-console
    :align: center
+   :alt: TCL-console
 Figure 2: TCL-console
 
 -----
