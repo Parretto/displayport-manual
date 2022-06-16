@@ -21,10 +21,9 @@ Steps to build the reference design.
 #. Launch the Lattice Radiant software
 #. Open the TCL console (View -> Show Views -> TCL Console)
 .. figure:: ./images/lat-tcl-console.png
-
 #. Build the project by typing in the TCL console; source ../../ref/lattice/lfcpnx_evn/build_proj.tcl
 #. In the file list right click on the project (dp_ref_lat_lfcpnx_evn) 
 #. Select 'Regenerate All IPs...' and click OK.
 .. figure:: ./images/lat-regenerate-ip.png
-
+   :alt: Regenerate 
 #. Click on 'Run All' to start the compilation
