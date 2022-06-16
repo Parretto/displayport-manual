@@ -5,12 +5,12 @@ The DP IP-cores and reference design can be downloaded from the Github repositor
 
 folder tree
 |
-	index
+	gateware	
+	├── src
 |	
-	├── install
-|	
-	├── support
+	├── ref
 |
+	├── syn
 |
 
 files::
@@ -34,7 +34,7 @@ files::
 Steps to build the reference design. 
 
 * Change work directory to the folder gateware/syn/lattice
-* Launch the Radiant TCL console by typing radiantc
-* Run the project build script 
+* Launch the Lattice Radiant software
+* source ../../ref/lattice/lfcpnx_evn/build_proj.tcl
 
 .. _Github repository: https://github.com/Parretto/DisplayPort
