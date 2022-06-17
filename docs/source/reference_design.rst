@@ -56,9 +56,6 @@ Lattice CertusPro-NX board setup
 
 -----
 
-|
-|
-
 Connect the external DisplayPort sink (eg. monitor) to the DPTX connector. This connector is labelled ``DPTX`` in the board picture. 
 The DisplayPort source device (eg PC) is connected to the DPRX connector. This connector is labelled ``DPRX``.
 
@@ -72,7 +69,6 @@ After the FPGA was succesfully configured, you should see the welcome message on
    :alt: uart-welcome.png
    :align: center
 
-|
 |
 
 The application shows the target FPGA board. Also it shows the Tentiva base- and mezzanine boards information. 
