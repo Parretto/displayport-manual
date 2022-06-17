@@ -5,17 +5,6 @@ Repository
 ^^^^^^^^^^
 The DP IP-cores and reference design can be downloaded from the `Github repository <https://github.com/Parretto/DisplayPort>`_.
 
-
-.. code-block:: ini
-
-    [MYFIELD]
-    type: type subtype options
-    description: Short description of the Field
-    extension: extension-parameter
-    extension_reg:
-    wstb:
-
-    
 The repository file structure is listed in figure 1.
 
 .. figure:: ./images/repo-tree.png

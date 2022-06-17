@@ -2,7 +2,7 @@ Overview
 ========
 
 Introduction
------------
+------------
 The DisplayPort IP-core is a DisplayPort solution for FPGA implementation. 
 It has a resource optimized footprint and it is written in SystemVerilog. 
 A thin host driver comes with the IP-core. The application software controls the IP-core through this driver.  
