@@ -59,23 +59,23 @@ Same is done for the DPRX IP-core. Additionally for the DPRX the edid is written
 Colorbar
 ~~~~~~~~
 After the menu options, you should see that the DPTX detected the hot plug (HPD) and it succesfully trained the link. 
-Now press ``z`` for the colorbar mode. Then select one of the video resolutions. 
+Press ``z`` for the colorbar mode. Then select one of the video resolutions. 
 After selecting the video resolution the DPTX you should see the colorbar pattern on the DisplayPort sink device. 
 
-.. figure:: ./images/uart-colorbar.png
+
+.. image:: ./images/uart-colorbar.png
    :alt: uart-colorbar.png
    :align: center
-   Figure 6: Colorbar
-
+   
 
 Pass-through
 ~~~~~~~~~~~~
 When the DisplayPort source video is enabled, you should see that the DPRX has succesfully trained and the link is up. 
-Also it shows the detected incoming video parameters (in this example 1080p)
-Now press ``x`` to enable the pass-through mode. 
+Also it shows the detected incoming video parameters (in this example 1080p).
+Press ``x`` to enable the pass-through mode. 
 You should see the video from the DisplayPort source device displayed on the DisplayPort sink device. 
 
-.. figure:: ./images/uart-pass.png
+
+.. image:: ./images/uart-pass.png
    :alt: uart-pass.png
    :align: center
-   Figure 6: Pass-through
