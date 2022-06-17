@@ -3,7 +3,7 @@ Build
 
 Repository
 ^^^^^^^^^^
-The DP IP-cores and reference design can be downloaded from the Github repository at https://github.com/Parretto/DisplayPort
+The DP IP-cores and reference design can be downloaded from the `Github repository <https://github.com/Parretto/DisplayPort>`_.
 
 The repository file structure is listed in figure 1.
 
@@ -34,10 +34,10 @@ Figure 1: Repository tree
 Kronos RISC-V
 ^^^^^^^^^^^^^
 In the reference design the Kronos RISC-V is used as a generic application processor. 
-More information about the Kronos project can be found here; https://sonalpinto.github.io/kronos/#/
+Please visit the `Kronos webpage <https://sonalpinto.github.io/kronos/#/>`_ for more information. 
 Before building the reference design the kronos repository needs to be downloaded.
 
-Go to the folder gateware/ref and run the script 'get_kronos_repo.sh' 
+Go to the folder gateware/ref and run the script ``get_kronos_repo.sh``
 
 
 .. note::
