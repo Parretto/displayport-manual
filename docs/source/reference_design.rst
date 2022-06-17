@@ -31,14 +31,32 @@ This paragraph describes how to run the reference design on the board.
 
 The reference design uses the `Tentiva board <https://www.parretto.com/tentiva.html>`_.
 Tentiva is video FMC board with DisplayPort sink and source connectors.   
-Mount the Tentiva board on the FPGA development board using the FMC HPC connector.
+Mount the Tentiva board on the FMC HPC connector located on the FPGA development board. Use the plastic screws to secure the Tentiva board.
+
+The reference design is available on the 
+* `Xilinx Zynq UltraScale+ ZCU102 evalution board <https://www.xilinx.com/products/boards-and-kits/ek-u1-zcu102-g.html>`_
+* `Lattice CertusPro-NX evaluation board <https://www.latticesemi.com/en/Products/DevelopmentBoardsAndKits/CertusPro-NXEvaluationBoard>`_
+
 Connect the external DisplayPort sink to the DPTX connector and the connect the DisplayPort source device to the DPRX connector, 
-like shown in the figure below. 
+like shown below. 
+
+--------
 
 
-.. image:: ./images/board-setup.png
-   :alt: board-setup.png
+.. image:: ./images/board-zcu102.png
+   :alt: board_zcu102.png
    :align: center
+
+
+----
+
+
+.. image:: ./images/board-certuspronx.png
+   :alt: board-certuspronx.png
+   :align: center
+
+
+-----
 
 |
 |
