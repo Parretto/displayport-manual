@@ -35,11 +35,13 @@ Mount the Tentiva board on the FPGA development board using the FMC HPC connecto
 Connect the external DisplayPort sink to the DPTX connector and the connect the DisplayPort source device to the DPRX connector, 
 like shown in the figure below. 
 
-.. figure:: ./images/board-setup.png
+
+.. image:: ./images/board-setup.png
    :alt: board-setup.png
    :align: center
-   Figure 4: Board Setup
 
+|
+|
 
 Connect the host PC to the FPGA boards USB interface. 
 Open a serial terminal and set the baudrate to 115200.
@@ -51,6 +53,8 @@ After the FPGA was succesfully configured, you should see the welcome message on
    :alt: uart-welcome.png
    :align: center
 
+|
+|
 
 The application shows the target FPGA board. Also it shows the Tentiva base- and mezzanine boards information. 
 
@@ -67,7 +71,9 @@ After selecting the video resolution the DPTX you should see the colorbar patter
 .. image:: ./images/uart-colorbar.png
    :alt: uart-colorbar.png
    :align: center
-   
+
+|
+|
 
 Pass-through
 ~~~~~~~~~~~~
