@@ -46,10 +46,11 @@ Open a serial terminal and set the baudrate to 115200.
 Download the FPGA bitstream into the FPGA using the FPGA vendor programming tool. 
 After the FPGA was succesfully configured, you should see the welcome message on the terminal. 
 
-.. figure:: ./images/uart-welcome.png
+
+.. image:: ./images/uart-welcome.png
    :alt: uart-welcome.png
    :align: center
-   Figure 5: Welcome
+
 
 The application shows the target FPGA board. Also it shows the Tentiva base- and mezzanine boards information. 
 
