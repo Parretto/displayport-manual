@@ -21,12 +21,39 @@ Resources
 
 Xilinx 
 
+.. list-table:: Xilinx resources
+    :widths: 10 10 10 10 10
+    :header-rows: 1
 
+    * - Module
+      - LUT
+      - FF
+      - BRAM
+      - DSP
+    * - DisplayPort TX (DPTX)
+      - 3541
+      - 3439
+      - 5
+      - 0
+    * - DisplayPort RX (DPRX)
+      - 3997
+      - 2336
+      - 5
+      - 0
+    * - Video Toolbox (VTB)
+      - 1117
+      - 2614
+      - 1.5
+      - 2
+
+- Device XCZU9EG
+- Vivado software v2021.2
+- Dual pixel datapath
 
 
 Lattice
 
-.. list-table:: Parameters
+.. list-table:: Lattice resources
     :widths: 10 10 10 10 10
     :header-rows: 1
 
@@ -48,9 +75,10 @@ Lattice
     * - Video Toolbox (VTB)
       - 2119
       - 2384
-      - 5
       - 6
+      - 5
 
+- Device LFCPNX-100
 - Radiant software v3.1.0.43.2
 - Quad pixel datapath
 
