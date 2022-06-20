@@ -19,7 +19,7 @@ Features
 Resources
 ---------
 
-Xilinx 
+The tables below show the device utilization for Xilinx and Lattice devices. 
 
 .. list-table:: Xilinx resources
     :widths: 10 10 10 10 10
@@ -51,7 +51,7 @@ Xilinx
 - Dual pixel datapath
 
 
-Lattice
+------
 
 .. list-table:: Lattice resources
     :widths: 10 10 10 10 10
@@ -82,3 +82,4 @@ Lattice
 - Radiant software v3.1.0.43.2
 - Quad pixel datapath
 
+------
