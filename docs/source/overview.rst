@@ -15,3 +15,42 @@ Features
 * Native video and AXI stream interfaces
 * Single Stream transport mode (SST)
 * Dual and quad pixels per clock
+
+Resources
+---------
+
+Xilinx 
+
+
+
+
+Lattice
+
+.. list-table:: Parameters
+    :widths: 10 10 10 10 10
+    :header-rows: 1
+
+    * - Module
+      - LUT
+      - FF
+      - EBR
+      - DSP
+    * - DisplayPort TX (DPTX)
+      - 7361
+      - 3574
+      - 14
+      - 0
+    * - DisplayPort RX (DPRX)
+      - 10094
+      - 2899
+      - 10
+      - 0
+    * - Video Toolbox (VTB)
+      - 2119
+      - 2384
+      - 5
+      - 6
+
+- Radiant software v3.1.0.43.2
+- Quad pixel datapath
+
