@@ -3,8 +3,8 @@ Reference Design
 
 Introduction
 ------------
-The reference design is shown in figure 3.
 The reference design consists of the modules DisplayPort TX (DPTX), DisplayPort RX (DPRX), Video Toolbox (VTB), SERDES and application. 
+The block diagram is shown below. 
 
 The VTB is a collection of video helper modules. It has a timing generator, colorbar generator, FIFO and video clock recovery. 
 
@@ -21,7 +21,7 @@ The SERDES registers are accessed through the DRP / LMMI peripheral.
 .. figure:: ./images/reference_design.svg
    :alt: Reference design
    :align: center
-   Figure 3: Reference design
+Reference design
 
 
 Running
