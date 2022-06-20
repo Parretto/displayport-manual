@@ -24,6 +24,9 @@ The SERDES registers are accessed through the DRP / LMMI peripheral.
 Reference design
 
 
+--------
+
+
 Running
 -------
 
