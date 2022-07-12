@@ -12,25 +12,25 @@ The repository file structure is listed in figure 1.
    :alt: Repository tree
 Figure 1: Repository tree
 
-	.
-	└── gateware
-		├── src 				- Source folder
-    	│	├── app					- Application
-    	│	├── lib					- Library
-    	│	├── misc				- Miscellaneous
-    	│	├── pm					- Policy maker
-    	│	├── rx					- DP RX
-    	│	├── tx					- DP TX
-    	│	└── vtb					- Video toolbox
-    	├── ref					- Reference folder
-      │  ├── kronos           - Kronos RISC-V 
-    	│	├── lattice				- Lattice
-    	│  │ 	└── lfcpnx_evn			- CertusPro-NX 
-      │  └── xilinx           - Xilinx
-      │     └── zcu102           - ZCU102
-    	└── syn					- Synthesis folder
-        	├── lattice				- Lattice
-         └── xilinx           - Xilinx
+.. comment 	.
+.. comment 	└── gateware
+.. comment 		├── src 				- Source folder
+.. comment     │	├── app					- Application
+.. comment     │	├── lib					- Library
+.. comment     │	├── misc				- Miscellaneous
+.. comment    	│	├── pm					- Policy maker
+.. comment    	│	├── rx					- DP RX
+.. comment    	│	├── tx					- DP TX
+.. comment    	│	└── vtb					- Video toolbox
+.. comment    	├── ref					- Reference folder
+.. comment     │  ├── kronos           - Kronos RISC-V 
+.. comment    	│	├── lattice				- Lattice
+.. comment    	│  │ 	└── lfcpnx_evn			- CertusPro-NX 
+.. comment     │  └── xilinx           - Xilinx
+.. comment     │     └── zcu102           - ZCU102
+.. comment    	└── syn					- Synthesis folder
+.. comment       	├── lattice				- Lattice
+.. comment        └── xilinx           - Xilinx
 
 Kronos RISC-V
 ^^^^^^^^^^^^^
@@ -46,6 +46,8 @@ Go to the folder gateware/ref and run the script ``get_kronos_repo.sh``
    It is only used to run the reference design application software.
    It can be replaced by any processor (eg. ARM, RISC-V, Microblaze, etc)
 
+
+-----
 
 Lattice reference design
 ^^^^^^^^^^^^^^^^^^^^^^^^
