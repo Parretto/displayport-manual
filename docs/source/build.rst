@@ -12,24 +12,25 @@ The repository file structure is listed in figure 1.
    :alt: Repository tree
 Figure 1: Repository tree
 
-.. comment
-.. comment	.
-.. comment	└── gateware
-.. comment		├── src 				- Source folder
-.. comment    	│	├── app					- Application
-.. comment    	│	├── lib					- Library
-.. comment    	│	├── misc				- Miscellaneous
-.. comment    	│	├── pm					- Policy maker
-.. comment    	│	├── rx					- DP RX
-.. comment    	│	├── tx					- DP TX
-.. comment    	│	└── vtb					- Video toolbox
-.. comment    	├── ref					- Reference folder
-.. comment    	│	├── kronos				- Kronos RISC-V 
-.. comment    	│	└── lattice				- Lattice
-.. comment    	│   	└── lfcpnx_evn			- CertusPro-NX 
-.. comment    	└── syn					- Synthesis folder
-.. comment        	└── lattice				- Lattice
-
+	.
+	└── gateware
+		├── src 				- Source folder
+    	│	├── app					- Application
+    	│	├── lib					- Library
+    	│	├── misc				- Miscellaneous
+    	│	├── pm					- Policy maker
+    	│	├── rx					- DP RX
+    	│	├── tx					- DP TX
+    	│	└── vtb					- Video toolbox
+    	├── ref					- Reference folder
+      │  ├── kronos           - Kronos RISC-V 
+    	│	├── lattice				- Lattice
+    	│  │ 	└── lfcpnx_evn			- CertusPro-NX 
+      │  └── xilinx           - Xilinx
+      │     └── zcu102           - ZCU102
+    	└── syn					- Synthesis folder
+        	├── lattice				- Lattice
+         └── xilinx           - Xilinx
 
 Kronos RISC-V
 ^^^^^^^^^^^^^
@@ -47,7 +48,7 @@ Go to the folder gateware/ref and run the script ``get_kronos_repo.sh``
 
 
 Lattice reference design
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 Steps to build the Lattice CertusPro-NX reference design. 
 
 #. Change the work directory to the folder gateware/syn/lattice
@@ -73,3 +74,13 @@ Figure 2: TCL-console
 Figure 3: Regenerate All IPs
 
 -----
+
+Xilinx reference design
+^^^^^^^^^^^^^^^^^^^^^^^^
+Steps to build the Xilinx ZCU102 reference design. 
+
+#. Change the work directory to the folder gateware/syn/xilinx
+#. Launch the Xilinx Vivado software
+#. Build the project by typing in the TCL console; source ../../ref/xilinx/zcu102/build_proj.tcl
+#. After the project was build run synthesis and implementation
+
